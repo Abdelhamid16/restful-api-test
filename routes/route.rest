@@ -1,0 +1,32 @@
+
+GET http://localhost:3000/subscribers
+
+###
+GET http://localhost:3000/subscribers/6542e5c42608e23a2041f8d4
+
+###
+
+POST http://localhost:3000/subscribers/
+Content-Type: application/json 
+
+{
+    "name": "Abdelhammid Dini", 
+    "subscribedToChannel": "Web and Mobile Dev"
+}
+
+### 
+
+DELETE http://localhost:3000/subscribers/6542e5c42608e23a2041f8d4
+
+###
+
+PATCH http://localhost:3000/subscribers/6542e4d6632dc891cf3e5f78
+Content-Type: application/json
+
+{
+    "name": "Zika ITFC", 
+    "subscribedToChannel": "Bein Sport Reporter"
+     
+}
+
+
